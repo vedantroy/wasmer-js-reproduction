@@ -1,0 +1,24 @@
+{
+  "name": "browsix-wasi-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "@rollup/plugin-typescript": "^4.1.2",
+    "@wasmer/wasi": "^0.11.2",
+    "@wasmer/wasm-transformer": "^0.11.2",
+    "rollup": "^2.15.0",
+    "rollup-plugin-internal": "^1.0.4",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.5"
+  }
+}
